@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">MentalCounting</string>
+    <string name="score_menu_label">Scores menu</string>
+    <string name="Calcul_launch_label">Calcul !</string>
+    <string name="Scor_Directory_label">Go to scores</string>
+    <string name="menu_principal_label">Principal Menu</string>
+    <string name="Calcul_Sample_label">Solve : "Calcul chose by the program"</string>
+    <string name="Writing_sample_label">Result wrote on your keyboard</string>
+    <string name="enter_label" translatable="false">ENTER</string>
+    <string name="bravo">   Win !</string>
+    <string name="Lose_Label">   Lose...</string>
+    <string name="score">Score : ??</string>
+    <string name="recommencer">Try Again</string>
+    <string name="aller_aux_scores">Go to scores</string>
+    <string name="aller_au_menu_principal">Go to principal menu</string>
+    <string name="nombre_d_op_ration_r_ussites_xx">Number of success : XX</string>
+    <string name="taux_de_r_ussite_xx">Rate of success : XX%</string>
+    <string name="score_xx">Score : XX</string>
+    <string name="derni_re_op_ration_avec_r_ussite_xx">Last operation solved : XX</string>
+    <string name="revenir_en_arri_re">Go back</string>
 </resources>

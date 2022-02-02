@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/menu_principal_label"
+        android:id="@+id/Button_Menu_1"
+        />
 
+    <item
+        android:title="@string/score_menu_label"
+        android:id="@+id/Button_Menu_2"
+        />
 </menu>

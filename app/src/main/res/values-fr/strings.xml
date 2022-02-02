@@ -1,3 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">CalculMental</string>
+    <string name="score_menu_label">Menu des scores</string>
+    <string name="Calcul_launch_label">Calculer !</string>
+    <string name="Scor_Directory_label">Aller aux scores</string>
+    <string name="menu_principal_label">Menu Principal</string>
+    <string name="Calcul_Sample_label">Calculez : calcul choisi par le programme</string>
+    <string name="Writing_sample_label">Résultat inscrit sur le clavier</string>
+    <string name="bravo">Bravo !</string>
+    <string name="Lose_Label">Perdu...</string>
+    <string name="score">Score : ??</string>
+    <string name="recommencer">Recommencer</string>
+    <string name="nombre_d_op_ration_r_ussites_xx">Nombre d\'opération réussites : XX</string>
+    <string name="taux_de_r_ussite_xx">Taux de réussite : XX%</string>
+    <string name="score_xx">Score : XX</string>
+    <string name="derni_re_op_ration_avec_r_ussite_xx">Dernière opération avec réussite : XX</string>
+    <string name="revenir_en_arri_re">Revenir en arrière</string>
+    <string name="aller_aux_scores">Aller aux scores</string>
+    <string name="aller_au_menu_principal">Aller au menu principal</string>
 </resources>

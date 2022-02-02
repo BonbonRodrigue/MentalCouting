@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/omega/AndroidStudioProjects/MentalCounting/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/omega/AndroidStudioProjects/MentalCounting/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/omega/AndroidStudioProjects/MentalCounting/app/src/main/res/layout/activity_page_calcul.xml" value="0.33" />
+        <entry key="..\:/Users/omega/AndroidStudioProjects/MentalCounting/app/src/main/res/layout/activity_page_resultat_negatif.xml" value="0.25" />
+        <entry key="..\:/Users/omega/AndroidStudioProjects/MentalCounting/app/src/main/res/layout/activity_page_score.xml" value="0.33" />
+        <entry key="..\:/Users/omega/AndroidStudioProjects/MentalCounting/app/src/main/res/menu/menu_principal.xml" value="0.28958333333333336" />
       </map>
     </option>
   </component>

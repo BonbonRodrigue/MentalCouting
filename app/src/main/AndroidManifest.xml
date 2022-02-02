@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MentalCounting">
         <activity
+            android:name=".Page_Score"
+            android:exported="false" />
+        <activity
+            android:name=".Page_Resultat_Negatif"
+            android:exported="false" />
+        <activity
+            android:name=".PageCalcul"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

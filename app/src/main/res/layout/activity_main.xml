@@ -6,45 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="368dp"
-        android:layout_height="44dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+        <Button
+            android:id="@+id/Lancer_Jeu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Calcul_launch_label" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="368dp"
-        android:layout_height="44dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="68dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="368dp"
-        android:layout_height="44dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="191dp" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="368dp"
-        android:layout_height="44dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="129dp" />
-
+        <Button
+            android:id="@+id/Acces_Score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Scor_Directory_label" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
