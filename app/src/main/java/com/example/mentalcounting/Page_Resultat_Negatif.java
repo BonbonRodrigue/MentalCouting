@@ -3,6 +3,7 @@ package com.example.mentalcounting;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
@@ -39,13 +40,24 @@ public class Page_Resultat_Negatif extends AppCompatActivity {
 
     private void Win_Or_Lose(int input, int result)
     {
-        if(input != result)
+        if(input == -1)
         {
-            rightOrWrong.setText("LOSE");
+            rightOrWrong.setText(R.string.Null);
+            rightOrWrong.setTextColor(Color.GRAY);
         }
         else
         {
-            rightOrWrong.setText("WIN");
+            if(input != result)
+            {
+                rightOrWrong.setText(R.string.Lose);
+                rightOrWrong.setTextColor(Color.RED);
+            }
+            else
+            {
+                rightOrWrong.setText(R.string.Win);
+                rightOrWrong.setTextColor(Color.GREEN);
+            }
+
         }
     }
 

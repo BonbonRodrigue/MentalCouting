@@ -20,6 +20,9 @@
     <string name="score_xx">Score : XX</string>
     <string name="derni_re_op_ration_avec_r_ussite_xx">Last operation solved : XX</string>
     <string name="revenir_en_arri_re">Go back</string>
+    <string name="Win">Win</string>
+    <string name="Lose">Lose</string>
+    <string name="Null">It is Null !!!</string>
 
    <!-- les templates -->
     <string name="problem_template" translatable="false">%1$d %2$s %3$d</string>

@@ -26,7 +26,7 @@
 
             <TextView
                 android:id="@+id/textRoW"
-                android:layout_width="169dp"
+                android:layout_width="325dp"
                 android:layout_height="68dp"
                 android:gravity="center_horizontal"
                 android:textColor="#000000"

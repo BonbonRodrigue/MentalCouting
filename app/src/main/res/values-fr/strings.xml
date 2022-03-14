@@ -20,6 +20,9 @@
     <string name="revenir_en_arri_re">Revenir en arrière</string>
     <string name="aller_aux_scores">Aller aux scores</string>
     <string name="aller_au_menu_principal">Aller au menu principal</string>
+    <string name="Win">Gagné</string>
+    <string name="Lose">Perdu</string>
+    <string name="Null">Il y a rien !!!</string>
 
 
 </resources>

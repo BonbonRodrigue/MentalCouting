@@ -19,11 +19,13 @@ public class PageCalcul extends AppCompatActivity {
     private TextView textProblem;
     private int _first = 0;
     private int result_Problem = 0;
+    private boolean test_input = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page_calcul);
+        _first = -1;
 
 
         // les boutons chiffre
@@ -127,7 +129,11 @@ public class PageCalcul extends AppCompatActivity {
 
                 // On interchange les deux valeurs pour éviter les chiffres négatifs
                 if(Integer.parseInt(first) < Integer.parseInt(second))
-                    result_Problem = Integer.parseInt(second) + Integer.parseInt(first);
+                {
+                    updateProblem(second, first, operator);
+                    result_Problem = Integer.parseInt(second) - Integer.parseInt(first);
+                    return(result_Problem);
+                }
             }
             else
             {
@@ -184,6 +190,13 @@ public class PageCalcul extends AppCompatActivity {
 
     // ecriture du nombre sur l'écran
     private void writeNumber(Button b) {
+
+        if(test_input == false)
+        {
+            eraseOperation();
+            test_input = true;
+        }
+
         CharSequence sequence = b.getText();
         String str = sequence.toString();
 
