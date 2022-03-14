@@ -13,25 +13,23 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/text_Problem"
             android:layout_width="412dp"
-            android:layout_height="171dp"
+            android:layout_height="119dp"
             android:scaleX="1"
-            android:text="@string/Calcul_Sample_label"
             android:textSize="40dp"
             tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/space"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="119dp"
             android:textSize="110dp" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/text_Resultat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Writing_sample_label"
             android:textSize="25dp"
             tools:ignore="MissingConstraints" />
 
@@ -42,7 +40,7 @@
             tools:ignore="MissingConstraints">
 
             <LinearLayout
-                android:layout_width="100dp"
+                android:layout_width="135dp"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
@@ -65,14 +63,15 @@
                     android:text="1" />
 
                 <Button
-                    android:id="@+id/Button_Virgule"
+                    android:id="@+id/Erase"
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
-                    android:text="," />
+                    android:text="ERASE" />
+
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="100dp"
+                android:layout_width="140dp"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
@@ -106,7 +105,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="100dp"
+                android:layout_width="133dp"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
@@ -131,41 +130,11 @@
                     tools:ignore="DuplicateIds" />
 
                 <Button
-                    android:id="@+id/Button_Diviser"
-                    android:layout_width="match_parent"
-                    android:layout_height="80dp"
-                    android:text="/"
-                    tools:ignore="DuplicateIds" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="100dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <Button
-                    android:id="@+id/Button_Multiplier"
-                    android:layout_width="match_parent"
-                    android:layout_height="80dp"
-                    android:text="*" />
-
-                <Button
-                    android:id="@+id/Button_Moins"
-                    android:layout_width="match_parent"
-                    android:layout_height="80dp"
-                    android:text="-" />
-
-                <Button
-                    android:id="@+id/Button_Plus"
-                    android:layout_width="match_parent"
-                    android:layout_height="80dp"
-                    android:text="+" />
-
-                <Button
                     android:id="@+id/ENTER"
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
                     android:text="@string/enter_label" />
+
             </LinearLayout>
 
         </LinearLayout>

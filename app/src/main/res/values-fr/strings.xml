@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- les textes à traduire -->
     <string name="app_name">CalculMental</string>
     <string name="score_menu_label">Menu des scores</string>
     <string name="Calcul_launch_label">Calculer !</string>
@@ -18,4 +20,6 @@
     <string name="revenir_en_arri_re">Revenir en arrière</string>
     <string name="aller_aux_scores">Aller aux scores</string>
     <string name="aller_au_menu_principal">Aller au menu principal</string>
+
+
 </resources>

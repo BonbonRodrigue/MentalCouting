@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         Button Score = findViewById(R.id.Acces_Score);
 
         Lancer_jeu.setOnClickListener(view -> LancerJeu());
-        Score.setOnClickListener(view -> AccesScore());
+        Score.setOnClickListener(view -> AccessScore());
     }
 
     private void LancerJeu(){
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    private void AccesScore(){
+    private void AccessScore(){
         Intent intent = new Intent(this, Page_Score.class);
         startActivity(intent);
     }
